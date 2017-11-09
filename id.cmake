@@ -1,5 +1,5 @@
 set(package gen_prog)
-set(version 0.2.0)
+set(version 0.2.1)
 
 byd__package__info(${package}
     MAINTAINER_NAME "David Callu"
@@ -9,6 +9,7 @@ byd__package__info(${package}
     )
 
 byd__package__download_info(${package}
-    URL "https://github.com/ledocc/gen_prog/archive/0.2.0.tar.gz"
-    URL_HASH SHA1=ca8fb1c97375dde9ab68cd0ded0d8a6640df82d2
+    GIT_REPOSITORY "https://github.com/ledocc/gen_prog.git"
+    GIT_TAG 0.2.1
+
 )
