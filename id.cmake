@@ -1,5 +1,5 @@
 set(package gen_prog)
-set(version 0.2.1)
+set(version 0.3.0)
 
 byd__package__info(${package}
     MAINTAINER_NAME "David Callu"
@@ -10,6 +10,5 @@ byd__package__info(${package}
 
 byd__package__download_info(${package}
     GIT_REPOSITORY "https://github.com/ledocc/gen_prog.git"
-    GIT_TAG 0.2.1
-
+    GIT_TAG ${version}
 )
