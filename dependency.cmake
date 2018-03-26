@@ -8,3 +8,13 @@ byd__package__set_dependency(${package}
     Boost--system
     Boost--thread
     )
+
+
+if(BUILD_TESTING)
+
+    byd__package__set_dependency(${package}
+        Boost--test
+        turtle
+    )
+
+endif()

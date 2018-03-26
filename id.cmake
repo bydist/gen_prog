@@ -1,10 +1,10 @@
 set(package gen_prog)
-set(version 0.3.0)
+set(version 0.4.1)
 
 byd__package__info(${package}
     MAINTAINER_NAME "David Callu"
     MAINTAINER_EMAIL "callu.david@gmail.com"
-    VERSION ${version}-3
+    VERSION ${version}-1
     ABI ${version}
     )
 
