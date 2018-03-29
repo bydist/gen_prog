@@ -12,7 +12,7 @@ byd__package__set_dependency(${package}
 
 if(BUILD_TESTING)
 
-    byd__package__set_dependency(${package}
+    byd__package__add_dependency(${package}
         Boost--test
         turtle
     )
