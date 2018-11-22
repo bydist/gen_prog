@@ -1,5 +1,5 @@
 set(package gen_prog)
-set(version 0.7.0)
+set(version 0.7.1)
 
 byd__package__info(${package}
     MAINTAINER_NAME "David Callu"
